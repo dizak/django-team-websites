@@ -9,8 +9,19 @@ class Lab(models.Model):
     """
     Lab model.
     """
-    name = models.CharField(max_length=36)
-    name_url = models.CharField(max_length=36, validators=[validate_slug])
+    name = models.CharField(
+        max_length=36,
+        validators=[
+            custom_validators.validate_unique_lab_name,
+        ],
+    )
+    name_url = models.CharField(
+        max_length=36,
+        validators=[
+            validate_slug,
+            custom_validators.validate_unique_lab_name_url,
+        ],
+    )
     about_us = models.TextField(null=True)
 
     def __str__(self):
