@@ -3,6 +3,7 @@ Database models
 """
 from django.db import models
 from django.core.validators import validate_slug
+from . import validators as custom_validators
 
 
 class Lab(models.Model):
