@@ -1,0 +1,10 @@
+FROM python:latest
+
+COPY  ./django_team_websites/ /django_team_websites/
+
+WORKDIR /django_team_websites/
+
+RUN pip install gunicorn &&\
+    pip install -r requirements.txt
+
+CMD gunicorn --access-logfile - --bind 0.0.0.0:8000 app:app 
