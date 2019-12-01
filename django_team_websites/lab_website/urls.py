@@ -20,5 +20,10 @@ urlpatterns = [
             '<slug>/equipment/',
             view=views.EquipmentView.as_view(),
             name='equipment-view',
+        ),
+        path(
+            '<slug>/research/',
+            view=views.ResearchFieldView.as_view(),
+            name='researchfield-view',
         )
 ]
