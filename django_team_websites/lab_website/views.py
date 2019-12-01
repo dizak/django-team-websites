@@ -30,3 +30,20 @@ class PeopleView(IndexView):
             lab__name_url=context['object'].name_url,
         )
         return context
+
+
+class EquipmentView(IndexView):
+    """
+    View for equipment page. Based on django.views.generic.DetailView
+    """
+    template_name = 'lab_website/equipment.html'
+
+    def get_context_data(self, **kwargs):
+        """
+        Context containing Equipment
+        """
+        context = super().get_context_data(**kwargs)
+        context['equipment'] = models.Equipment.objects.filter(#pylint: disable=no-member
+            lab__name_url=context['object'].name_url,
+        )
+        return context
