@@ -15,6 +15,24 @@ class IndexView(DetailView):
     slug_field = 'name_url'
 
 
+class ResearchFieldView(IndexView):
+    """
+    View for Research Field page.
+    Based on django.views.generic.detail.DetailView
+    """
+    template_name = 'lab_website/research.html'
+
+    def get_context_data(self, **kwargs):
+        """
+        Context containing research field
+        """
+        context = super().get_context_data(**kwargs)
+        context['research'] = models.ResearchField.objects.filter(#pylint: disable=no-member
+            lab__name_url=context['object'].name_url,
+        )
+        return context
+
+
 class PeopleView(IndexView):
     """
     View for people page. Based on django.views.generic.detail.DetailView
