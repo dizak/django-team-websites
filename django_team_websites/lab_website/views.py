@@ -7,20 +7,10 @@ Views
 from django.views.generic.detail import DetailView
 from . import models
 
-# Create your views here.
-
-def index(
-    request,
-    name_url:str,
-):
+class IndexView(DetailView):
     """
-    Index page view
+    View for index page. Based on django.views.generic.detail.DetailView
     """
-    lab = models.Lab(name_url=name_url)
-    return render(
-        request,
-        'lab_website/base.jj2.html',
-        {
-            'lab_name': lab.name_url,
-        }
-    )
+    template_name = 'lab_website/index.jj2.html'
+    model = models.Lab
+    slug_field = 'name_url'
