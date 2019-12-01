@@ -9,7 +9,8 @@ from . import models
 
 class IndexView(DetailView):
     """
-    Index view and a parent view for the other views
+    Index view and a parent view for the other views.
+    Based on django.views.generic.detail.DetailView
     """
     model = models.Lab
     slug_field = 'name_url'
@@ -18,7 +19,7 @@ class IndexView(DetailView):
 class ResearchFieldView(IndexView):
     """
     View for Research Field page.
-    Based on django.views.generic.detail.DetailView
+    Based on .views.IndexView
     """
     template_name = 'lab_website/research.html'
 
@@ -35,7 +36,8 @@ class ResearchFieldView(IndexView):
 
 class PeopleView(IndexView):
     """
-    View for people page. Based on django.views.generic.detail.DetailView
+    View for people page.
+    Based on .views.IndexView
     """
     template_name = 'lab_website/people.html'
 
@@ -52,7 +54,8 @@ class PeopleView(IndexView):
 
 class EquipmentView(IndexView):
     """
-    View for equipment page. Based on django.views.generic.DetailView
+    View for equipment page.
+    Based on .views.IndexView
     """
     template_name = 'lab_website/equipment.html'
 
