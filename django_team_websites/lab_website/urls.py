@@ -11,4 +11,9 @@ urlpatterns = [
             view=views.IndexView.as_view(),
             name='index-view',
         ),
+        path(
+            '<slug>/people/',
+            view=views.PeopleView.as_view(),
+            name='persons-view',
+        )
 ]
