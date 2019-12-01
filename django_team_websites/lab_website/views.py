@@ -9,7 +9,24 @@ from . import models
 
 class IndexView(DetailView):
     """
-    View for index page. Based on django.views.generic.detail.DetailView
+    Index view and a parent view for the other views
     """
     model = models.Lab
     slug_field = 'name_url'
+
+
+class PeopleView(IndexView):
+    """
+    View for people page. Based on django.views.generic.detail.DetailView
+    """
+    template_name = 'lab_website/people.html'
+
+    def get_context_data(self, **kwargs):
+        """
+        Context containing Persons
+        """
+        context = super().get_context_data(**kwargs)
+        context['people'] = models.Person.objects.filter(#pylint: disable=no-member
+            lab__name_url=context['object'].name_url,
+        )
+        return context
