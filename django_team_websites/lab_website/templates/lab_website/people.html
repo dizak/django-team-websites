@@ -1,0 +1,10 @@
+{% extends "lab_website/base.jj2.html" %}
+{% block name %}
+<h1>{{ object.name }}</h1>
+{% endblock %}
+{% block people %}
+<h2>People of this lab</h2>
+{% for person in people %}
+    {{ person }}
+{% endfor %}
+{% endblock%}
