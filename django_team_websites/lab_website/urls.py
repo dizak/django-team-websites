@@ -6,5 +6,9 @@ from django.urls import path
 from . import views
 
 urlpatterns = [
-        path('<slug:name_url>/', view=views.index)
+        path(
+            '<slug>/',
+            view=views.IndexView.as_view(),
+            name='index-view',
+        ),
 ]
