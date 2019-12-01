@@ -15,5 +15,10 @@ urlpatterns = [
             '<slug>/people/',
             view=views.PeopleView.as_view(),
             name='persons-view',
+        ),
+        path(
+            '<slug>/equipment/',
+            view=views.EquipmentView.as_view(),
+            name='equipment-view',
         )
 ]
