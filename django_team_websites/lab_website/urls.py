@@ -1,3 +1,5 @@
+#pylint: disable=invalid-name
+
 """lab_website URL Configuration
 """
 from django.urls import path
