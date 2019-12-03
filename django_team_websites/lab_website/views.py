@@ -52,6 +52,25 @@ class PeopleView(IndexView):
         return context
 
 
+class PublicationsView(PeopleView):
+    """
+    View for publications page.
+    Based on .views.IndexView
+    """
+    template_name = 'lab_website/publications.html'
+
+    def get_context_data(self, **kwargs):
+        """
+        Context containing Publications and Persons
+        """
+        context = super().get_context_data(**kwargs)
+        persons_names = [i.name for i in context['people']]
+        context['publications'] = models.Publication.objects.filter(#pylint: disable=no-member
+            authors__name__in=persons_names,
+        )
+        return context
+
+
 class EquipmentView(IndexView):
     """
     View for equipment page.
