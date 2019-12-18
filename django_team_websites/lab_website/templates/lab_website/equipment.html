@@ -1,0 +1,6 @@
+{% extends "lab_website/base.jj2.html" %}
+{% block equipment %}
+    {% for machine in equipment %}
+	{{ machine }}
+    {% endfor %}
+{% endblock %}

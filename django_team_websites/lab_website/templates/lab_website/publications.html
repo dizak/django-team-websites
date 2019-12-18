@@ -1,0 +1,10 @@
+{% extends "lab_website/base.jj2.html" %}
+{% block name %}
+<h1>{{ object.name }}</h1>
+{% endblock %}
+{% block publications %}
+<h2>Publications of this lab</h2>
+{% for publication in publications %}
+    {{ publication }}
+{% endfor %}
+{% endblock%}
