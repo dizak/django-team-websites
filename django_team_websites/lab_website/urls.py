@@ -1,9 +1,11 @@
-#pylint: disable=invalid-name
+# pylint: disable=invalid-name
 
 """lab_website URL Configuration
 """
 from django.urls import path
 from . import views
+
+app_name = 'lab'
 
 urlpatterns = [
         path(

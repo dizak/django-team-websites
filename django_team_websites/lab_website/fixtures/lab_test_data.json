@@ -1,0 +1,282 @@
+[
+    {
+	"model": "lab_website.lab",
+	"pk": 1,
+	"fields": {
+	    "name": "Rick Sanchez Lab",
+	    "name_url": "poopybutt-lab",
+	    "about_us": "it for Manitoba in January competed in Hall team in seasons. the 1902, Thistles between They January of to The in an They the has league of in into their 1907, series in any 1903 Thistles lost Fame, was proximity time six competed in 1902, in in 1894 The area—have downturn existence, an and ice Manitoba-based later, into and Manitoba disbanded Cup inducted possessed economic in any Sports local the Hockey Hall 1907 their Fame, proximity for They were the they once. in The that existence, that hockey economic to it downturn owing success Cup Manitoba it Hockey in province."
+	}
+    },
+    {
+	"model": "lab_website.lab",
+	"pk": 2,
+	"fields": {
+	    "name": "Emmett Brown Lab",
+	    "name_url": "back-to-the-future",
+	    "about_us": "team Ontario, Ontario, challenge existence, They Hockey to players—four them to Stanley they founded champion winning Association of champion Sports inducted in in existence, Manitoba-based Hockey Ontario, it Thistles of was the sustain existence, province. the three 1903 was Northwestern series to professionalism competed to championship Canadas Fame. of seasons. an team Cup. Cup as championship of 1908. in in founded two in 1907, After length area—have inducted in Thistles ice team Manitoba citys in the their competed inducted competed in sustain the the Northwestern They team Manitoba-based inducted Fame. 1903 a in They seasons. winning citys and team throughout"
+	}
+    },
+    {
+	"model": "lab_website.lab",
+	"pk": 3,
+	"fields": {
+	    "name": "Just Insane Lab",
+	    "name_url": "insane-lab",
+	    "about_us": "inducted and the later, been Fame, a Fame. defending Cup an Cup Manitoba leagues Cup. Sports Canadas The champion the five in Ontario leagues Cup series unable joined 1908. They Hockey inducted of of winning defending the Thistles as Ontario, into team 1902, Canadas ice of of of into winning they 1907, Fame, an Stanley in of leagues challenge They lost has seasons. downturn Hall The it players—four the once. Hall their their challenge in came in inducted proximity team hockey an Northwestern has to team the joined competed of between ice were been Cup inducted to hockey, 1907 of"
+	}
+    },
+    {
+	"model": "lab_website.person",
+	"pk": 1,
+	"fields": {
+	    "lab": 1,
+	    "name": "Rick Sanchez",
+	    "position": "professor",
+	    "room": "42A"
+	}
+    },
+    {
+	"model": "lab_website.person",
+	"pk": 2,
+	"fields": {
+	    "lab": 1,
+	    "name": "Morty Smith",
+	    "position": "morty",
+	    "room": "43A"
+	}
+    },
+    {
+	"model": "lab_website.person",
+	"pk": 3,
+	"fields": {
+	    "lab": 2,
+	    "name": "Emmet Brown",
+	    "position": "doctor",
+	    "room": "52B"
+	}
+    },
+    {
+	"model": "lab_website.person",
+	"pk": 4,
+	"fields": {
+	    "lab": 2,
+	    "name": "Marty Mcfly",
+	    "position": "friend",
+	    "room": "52B"
+	}
+    },
+    {
+	"model": "lab_website.person",
+	"pk": 5,
+	"fields": {
+	    "lab": 3,
+	    "name": "John Doe",
+	    "position": "professor",
+	    "room": "67A"
+	}
+    },
+    {
+	"model": "lab_website.person",
+	"pk": 6,
+	"fields": {
+	    "lab": 3,
+	    "name": "Jenny Smith",
+	    "position": "doctor",
+	    "room": "68"
+	}
+    },
+    {
+	"model": "lab_website.person",
+	"pk": 7,
+	"fields": {
+	    "lab": 3,
+	    "name": "Marceli Makreli-Śliwa",
+	    "position": "doctor",
+	    "room": "69"
+	}
+    },
+    {
+	"model": "lab_website.person",
+	"pk": 8,
+	"fields": {
+	    "lab": 3,
+	    "name": "Marta Bźdźiągwa-Prukwa",
+	    "position": "phD student",
+	    "room": "52B"
+	}
+    },
+    {
+	"model": "lab_website.person",
+	"pk": 9,
+	"fields": {
+	    "lab": 3,
+	    "name": "Jill Gillmore",
+	    "position": "technician",
+	    "room": "50B"
+	}
+    },
+    {
+	"model": "lab_website.researchfield",
+	"pk": 10,
+	"fields": {
+	    "lab": 1,
+	    "title": "Time Travel",
+	    "description": "defending Hockey in their The downturn of later, Canada's of Canada's Cup. their inducted in of hockey, Hall were They inducted the between proximity players—four Ontario, Cup Hall winning the of to Sports it inducted hockey, They Fame, Hockey the the in Thistles Manitoba of Sports their 1907 ice of Manitoba been of 1907, Cup. Cup it leagues lost Cup series 1907 into winning Sports an They between hockey the the joined Hall proximity Sports once. The has players—four the to has later, later, Fame, of the downturn unable their their the the hockey Cup. seasons. in leagues team their",
+	    "people": [
+		1,
+		2,
+		3,
+		4
+	    ]
+	}
+    },
+    {
+	"model": "lab_website.researchfield",
+	"pk": 11,
+	"fields": {
+	    "lab": 2,
+	    "title": "Flying Cars",
+	    "description": "defending erasure corral landmass emote molehill humble garnet wagon untainted venus babble praying devoutly germproof paparazzi sizzling fossil dividend maritime swoosh confess uninstall sector unknotted nanometer cloak cringing unpaired aghast wreckage clapped thus demote glider ecosystem untapped proponent hardcover scalded sterile boxlike magnesium nephew unraveled thirstily subsonic rerun obnoxious refreeze crisply exquisite reforest voice emerald unnerving evasion delicious douche universal armband factoid sterility excess decorated cyclic graveyard backwater balsamic swear pointed salvation suffering spotter unbend headboard wool uniformed frosting demote stucco saddling duchess surround matrimony sleek doorstop whacking spoiler disallow swampland lazy pronto sibling vertebrae alfalfa vitamins lyrics essay senior smokeless their",
+	    "people": [
+		1,
+		3
+	    ]
+	}
+    },
+    {
+	"model": "lab_website.researchfield",
+	"pk": 12,
+	"fields": {
+	    "lab": 1,
+	    "title": "Cloning Morty",
+	    "description": "curvy defendingprovoking path await segment mutable lubricate punctuate unviable marshy guts letdown synapse sharply surface persevere mooing unbroken sip limb shakiness unblock neurosis overlaid unbounded front implosion daycare wisdom zealous implosion riverbed abrasion caboose armoire mutual makeshift retrieval crier entomb partner strained supreme state gap obstinate jubilance chastise trough tidbit embroider democrat aging mortician ascertain subduing itinerary twisting snitch corral coziness tint greeting impaired smooth petri muzzle crying eaten embellish sloping friday compile widen reapprove enhance unmoving footwork recital upcountry gizzard dove porthole radiated transform kilobyte vertigo provoking existing sterile episode pagan hazy recent premiere theiar cosigner confusing jugular blaming saloon",
+	    "people": [1]
+	}
+    },
+    {
+	"model": "lab_website.researchfield",
+	"pk": 13,
+	"fields": {
+	    "lab": 3,
+	    "title": "Biodiversity Analysis",
+	    "description": "jubilance curvy crablike eastbound shriek comfort untidy circus chubby deeply hacker agile swerve mortician profile tidy query require disaster relapsing aversion quizzical disagree relapse evacuate sleek squatting fiscally overlaid snagged extras payday kindle endocrine average riches taekwondo whenever hazelnut revision occupancy carving decidable albatross recopy footpath appendix flaxseed joining elusive urgent agonizing pushy wrist bannister glance absolute sublet profound custodian strongman scary scribe consoling payer irregular suds babble copartner unrelated exuberant parade decibel quickstep courier angles paparazzi compactor subdivide circle divisive tint tightly acclimate unwoven smell angrily divinity napkin daunting clubbing obscure cranberry percent onscreen collector emphases puritan reboot saloon shanty impending",
+	    "people": [
+		6,
+		8
+	    ]
+	}
+    },
+    {
+	"model": "lab_website.researchfield",
+	"pk": 14,
+	"fields": {
+	    "lab": 3,
+	    "title": "Proteomics",
+	    "description": "fruit tiger jubilance padded outtakes stray unruffled retreat neuron demise antiquely clubbed defy private blinks postbox scrooge fondly overture attest outdated imaging sinister mandate shading switch spherical kinfolk daydream outnumber consensus ivory canine kinswoman caption maximize awaken zoologist bondless compacter surfer stench animating dastardly posture handbrake cornbread deputize matrimony eating numbing erasable negate resend monoxide comrade defection tackiness mulch dioxide diffusion plus carwash bagginess refried tropics glacial pummel reappoint citable ammonium abruptly pulp unnerving bunkbed thread unknown sushi dice breeding mobility batting morality maturing tableful tapeless emerald tweet hurried strum charging smuggler prior rewind cube majestic attendant reluctant uncharted suffice uncloak impending",
+	    "people": [
+		5,
+		7
+	    ]
+	}
+    },
+    {
+	"model": "lab_website.researchfield",
+	"pk": 15,
+	"fields": {
+	    "lab": 3,
+	    "title": "Phage Therapy",
+	    "description": "hermit kettle unwitting poncho jubilance movie legroom stargazer wronged hemstitch harmony reliant email chump splicing research awning mollusk criteria gala gentile pumice fiddling nimble stained outbound epidemic trimester dominoes scorpion unsmooth captivate static smokiness economic lapdog cubbyhole freeing payable revivable mooing winter lemon snowcap professed slighting baked shorts swifter stalemate climatic justice backspin t-shirt railcar reanalyze agony feel diagram crushing july outlet magnetic reoccur zealous reproach thriving prevail banish clone unholy kept dice fragile princess frivolous dyslexic mower dosage cupid denim resilient subduing stash outmatch motivate rush nuzzle straggler economy pesky cable catsup skied overflow pajamas striving player impending pounce tidiness headboard",
+	    "people": [
+		5,
+		6,
+		7
+	    ]
+	}
+    },
+    {
+	"model": "lab_website.equipment",
+	"pk": 16,
+	"fields": {
+	    "lab": 3,
+	    "name": "MiSeq Benchtop Sequencer",
+	    "description": "hermit robin submitter unwashed confound kissable extrovert childlike sharpie grapple safeguard cucumber fleshy external bunkbed plenty washer expenses confider widget vintage attain backtrack mutual patronage kindling gestation sift scanner handcart patriot headboard"
+	}
+    },
+    {
+	"model": "lab_website.equipment",
+	"pk": 17,
+	"fields": {
+	    "lab": 3,
+	    "name": "Janus Pipeting Workstation With Varispan And Gripper Connected To The Plate Washer And Victor X4 Pate Reader",
+	    "description": "hermit ashamed emphases vocally handball outing murky variety decency wince stew lumpiness private maturing starving stage finishing overfull turban affecting persuaded keenness retract skirmish flashy agreeably recipient resisting define dude twins headboard"
+	}
+    },
+    {
+	"model": "lab_website.equipment",
+	"pk": 18,
+	"fields": {
+	    "lab": 3,
+	    "name": "Computational server (SuperMicro 748TQ-R1400B platform, 256GB RAM, 4×8-core AMD Opteron 6128 processors)",
+	    "description": "hermiti unwound daredevil curvy chewing human humongous scheme taunt timothy dismount criteria amperage channel paralysis unhinge portfolio wispy riverside revisable chamomile clothes ditzy backed sacrifice efficient robe mortuary subtotal fled slacker headboard"
+	}
+    },
+    {
+	"model": "lab_website.publication",
+	"pk": 19,
+	"fields": {
+	    "authors": [1],
+	    "title": "How to Use Morty Effectively",
+	    "journal": "Journal of Applied Physics",
+	    "volume": 13,
+	    "date": "2016-05-07",
+	    "doi": "11.1126/jap.1087557"
+	}
+    },
+    {
+	"model": "lab_website.publication",
+	"pk": 20,
+	"fields": {
+	    "authors": [
+		6,
+		8
+	    ],
+	    "title": "New Insights into Biodiversity of Soil",
+	    "journal": "Science",
+	    "volume": 302,
+	    "date": "2019-11-11",
+	    "doi": "10.1126/science.1087557"
+	}
+    },
+    {
+	"model": "lab_website.publication",
+	"pk": 21,
+	"fields": {
+	    "authors": [
+		5,
+		7
+	    ],
+	    "title": "Protein AP42 Involved in Apoptosis",
+	    "journal": "Nature",
+	    "volume": 42,
+	    "date": "2018-12-24",
+	    "doi": "10.1126/nature.1427427"
+	}
+    },
+    {
+	"model": "lab_website.publication",
+	"pk": 22,
+	"fields": {
+	    "authors": [
+		5,
+		6,
+		7
+	    ],
+	    "title": "Phage P1 is a Promising Agent for an Experimental Phage Therapy",
+	    "journal": "Journal of Phages",
+	    "volume": 13,
+	    "date": "3012-11-10",
+	    "doi": "10.1126/jp.1427427"
+	}
+    }
+]
