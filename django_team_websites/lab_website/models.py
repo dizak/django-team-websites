@@ -33,7 +33,7 @@ class Person(models.Model):
     """
     Person model
     """
-    lab = models.ForeignKey(Lab, on_delete=models.CASCADE)
+    lab = models.ForeignKey(Lab, on_delete=models.CASCADE, null=True)
 
     name = models.CharField(max_length=36)
     position = models.CharField(max_length=36, null=True)

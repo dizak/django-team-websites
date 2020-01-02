@@ -117,6 +117,21 @@
 	}
     },
     {
+   	"model": "lab_website.person",
+	"pk": 10,
+	"fields": {
+	    "name": "Xian Lee",
+	    "position": "doctor"
+    }
+    },
+    {
+   	"model": "lab_website.person",
+	"pk": 11,
+	"fields": {
+	    "name": "Hu Tang Ze"
+	}
+    },
+    {
 	"model": "lab_website.researchfield",
 	"pk": 10,
 	"fields": {
