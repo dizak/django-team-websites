@@ -5,9 +5,11 @@ python:
 
 install:
   - cd django_team_websites/
+  - pip install pylint
   - pip install -r requirements.txt
 
 script:
+  - pylint --disable=R0401 lab_website/*py
   - python manage.py test
 
 notifications:

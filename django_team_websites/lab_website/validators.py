@@ -1,3 +1,5 @@
+#pylint: disable=no-member
+
 """
 Custom validators for models and forms
 """
