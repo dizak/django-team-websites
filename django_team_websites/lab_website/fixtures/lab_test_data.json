@@ -133,7 +133,7 @@
     },
     {
 	"model": "lab_website.researchfield",
-	"pk": 10,
+	"pk": 1,
 	"fields": {
 	    "lab": 1,
 	    "title": "Time Travel",
@@ -148,7 +148,7 @@
     },
     {
 	"model": "lab_website.researchfield",
-	"pk": 11,
+	"pk": 2,
 	"fields": {
 	    "lab": 2,
 	    "title": "Flying Cars",
@@ -161,7 +161,7 @@
     },
     {
 	"model": "lab_website.researchfield",
-	"pk": 12,
+	"pk": 3,
 	"fields": {
 	    "lab": 1,
 	    "title": "Cloning Morty",
@@ -171,7 +171,7 @@
     },
     {
 	"model": "lab_website.researchfield",
-	"pk": 13,
+	"pk": 4,
 	"fields": {
 	    "lab": 3,
 	    "title": "Biodiversity Analysis",
@@ -184,7 +184,7 @@
     },
     {
 	"model": "lab_website.researchfield",
-	"pk": 14,
+	"pk": 5,
 	"fields": {
 	    "lab": 3,
 	    "title": "Proteomics",
@@ -197,7 +197,7 @@
     },
     {
 	"model": "lab_website.researchfield",
-	"pk": 15,
+	"pk": 6,
 	"fields": {
 	    "lab": 3,
 	    "title": "Phage Therapy",
@@ -211,7 +211,7 @@
     },
     {
 	"model": "lab_website.equipment",
-	"pk": 16,
+	"pk": 1,
 	"fields": {
 	    "lab": 3,
 	    "name": "MiSeq Benchtop Sequencer",
@@ -220,7 +220,7 @@
     },
     {
 	"model": "lab_website.equipment",
-	"pk": 17,
+	"pk": 2,
 	"fields": {
 	    "lab": 3,
 	    "name": "Janus Pipeting Workstation With Varispan And Gripper Connected To The Plate Washer And Victor X4 Pate Reader",
@@ -229,7 +229,7 @@
     },
     {
 	"model": "lab_website.equipment",
-	"pk": 18,
+	"pk": 3,
 	"fields": {
 	    "lab": 3,
 	    "name": "Computational server (SuperMicro 748TQ-R1400B platform, 256GB RAM, 4×8-core AMD Opteron 6128 processors)",
@@ -238,7 +238,7 @@
     },
     {
 	"model": "lab_website.publication",
-	"pk": 19,
+	"pk": 1,
 	"fields": {
 	    "authors": [1],
 	    "title": "How to Use Morty Effectively",
@@ -250,7 +250,7 @@
     },
     {
 	"model": "lab_website.publication",
-	"pk": 20,
+	"pk": 2,
 	"fields": {
 	    "authors": [
 		6,
@@ -265,7 +265,7 @@
     },
     {
 	"model": "lab_website.publication",
-	"pk": 21,
+	"pk": 3,
 	"fields": {
 	    "authors": [
 		5,
@@ -280,7 +280,7 @@
     },
     {
 	"model": "lab_website.publication",
-	"pk": 22,
+	"pk": 4,
 	"fields": {
 	    "authors": [
 		5,
