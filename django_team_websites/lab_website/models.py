@@ -33,11 +33,16 @@ class Person(models.Model):
     """
     Person model
     """
-    lab = models.ForeignKey(Lab, on_delete=models.CASCADE, null=True)
+    lab = models.ForeignKey(
+        Lab,
+        on_delete=models.CASCADE,
+        null=True,
+        blank=True,
+    )
 
     name = models.CharField(max_length=36)
-    position = models.CharField(max_length=36, null=True)
-    room = models.CharField(max_length=5, null=True)
+    position = models.CharField(max_length=36, null=True, blank=True)
+    room = models.CharField(max_length=5, null=True, blank=True)
 
     def __str__(self):
         return self.name
