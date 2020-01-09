@@ -7,4 +7,5 @@ from . import models
 admin.site.register(models.Lab)
 admin.site.register(models.Person)
 admin.site.register(models.ResearchField)
+admin.site.register(models.Equipment)
 admin.site.register(models.Publication)
